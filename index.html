@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alffaza</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="functions.js"></script>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <div class="header">
+            <h1>FORMULIR PENDAFTARAN PASIEN BARU</h1>
+        </div>
+        <div class="form-wrapper">
+            <h2>IDENTITAS PASIEN</h1>
+                <form onsubmit="return submit_form()">
+
+                    <div class="question">
+                        <span>Nama Pasien</span>
+                        <div class="left-side">
+                            <input type="text" id="nama" /><br />
+                        </div>
+                    </div>
+                    <div class="question">
+                        <span>Tempat Lahir</span>
+                        <div class="left-side">
+                            <input type="text" id="tempat-lahir" /><br />
+                        </div>
+                    </div>
+
+                    <div class="question">
+
+                        <span>Tanggal Lahir</span>
+                        <div class="left-side">
+                            <input type="date" id="tanggal-lahir" /><br />
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <span>Jenis Kelamin</span>
+                        <div class="left-side">
+                            <input type="radio" id="laki-laki" name="jenis-kelamin">
+                            <label for="laki-laki">laki-laki</label><br />
+                            <input type="radio" id="perempuan" name="jenis-kelamin">
+                            <label for="perempuan">perempuan</label><br />
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <span>Provinsi</span>
+                        <div class="left-side">
+                            <input type="text" id="provinsi" /><br />
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <span>Kecamatan</span>
+                        <div class="left-side">
+                            <input type="text" id="kecamatan" /><br />
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <span>Kelurahan</span>
+                        <div class="left-side">
+                            <input type="text" id="kelurahan" /><br />
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <span>No Telpon</span>
+                        <div class="left-side">
+                            <input type="text" id="no-telp" /><br />
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <span>Kode Pos</span>
+                        <div class="left-side">
+                            <input type="text" id="kode-pos" /><br />
+                        </div>
+                    </div>
+
+                    <div class="question" style="margin-bottom: 2rem;">
+                        <span>Agama</span>
+                        <div class="left-side">
+                            <input type="radio" id="islam" name="agama">
+                            <label for="islam">islam</label><br />
+                            <input type="radio" id="kristen" name="agama">
+                            <label for="kristen">kristen</label><br />
+                            <input type="radio" id="agama-lain" name="agama">
+                            <label for="agama-lain"><input id="nama-agama-lain" type="text" placeholder="lainnya"
+                                    size="8"></label></label><br />
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <span>Pendidikan terakhir</span>
+                        <div class="left-side">
+                            <input type="text" id="pendidikan-terakhir" /><br />
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <span>Pekerjaan</span>
+                        <div class="left-side">
+                            <input type="text" id="pekerjaan" /><br />
+                        </div>
+                    </div>
+
+                    <h2>Penanggung Jawab Pasien</h2>
+                    <div class="question">
+                        <span>Hubungan Dengan Pasien</span>
+                        <div class="left-side">
+                            <input type="text" id="hubungan-penanggungjawab" /><br />
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <span>Nama Penanggung Jawab</span>
+                        <div class="left-side">
+                            <input type="text" id="nama-penanggungjawab" /><br />
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <span>Pendidikan P.Jawab</span>
+                        <div class="left-side">
+                            <input type="text" id="pendidikan-penanggungjawab" /><br />
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <span>Pekerjaan P.Jawab</span>
+                        <div class="left-side">
+                            <input type="text" id="pekerjaan-penanggungjawab" /><br />
+                        </div>
+                    </div>
+
+                    <br />
+                    <div class="centered"><button type="submit">submit</button></div>
+                </form>
+        </div>
+    </div>
+</body>
+
+</html>

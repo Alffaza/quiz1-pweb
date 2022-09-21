@@ -1,0 +1,33 @@
+body {
+    background-color: lightgray;
+}
+.page-wrapper{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 30px;
+    margin: 2rem;
+    padding: 4rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+.header{
+    text-align: center;
+}
+
+.question{
+    padding: 1rem;
+    margin-left: 10rem;
+}
+
+.left-side{
+    float: right;
+    width: 30rem;
+}
+
+.form-wrapper{
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+
+.centered{
+    text-align: center;
+}
